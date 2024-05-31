@@ -3,6 +3,7 @@ import { userRouter } from "./routes/userRouter.js";
 import bodyParser from "body-parser";
 import cors from "cors";
 import connectiondb from "./db/connection.js";
+import { UserTable } from "./Models/userTable.js";
 
 const database = "mongodb+srv://likeam99:ql2EEQpLuWYLnICu@a1.ig1ckn5.mongodb.net/?retryWrites=true&w=majority&appName=a1";
 
